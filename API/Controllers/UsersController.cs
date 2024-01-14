@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace API.Controllers;
 
 [Authorize]
-public class UsersController : BaseApiController
+public class UsersController : BaseApiController // api/users
 {
     private readonly DataContext _context;
 
